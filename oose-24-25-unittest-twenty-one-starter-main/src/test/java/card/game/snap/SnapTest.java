@@ -74,7 +74,7 @@ public class SnapTest {
 
     @Test
     void testPlayerWinsBySnap() {
-        snap.addPlayer(new Player(PlayerType.USER, "Alice")); // 确保 Snap 里有玩家
+        snap.addPlayer(new Player(PlayerType.USER, "Alice")); 
         Hand discardPile = new Hand();
 
         discardPile.add(Card.getInstance(Suit.HEARTS, FaceCard.KING));
